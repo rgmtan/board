@@ -7,17 +7,20 @@
  * To change this template use File | Settings | File Templates.
  */
 ?>
-<h1><?php eh($thread->title) ?></h1>
+
+<table class="table table-bordered">
+<th style="background-color: lightblue"><h1><?php eh($thread->title) ?></h1></th>
 <?php foreach ($comments as $k => $v): ?>
-<div class="comment">
-    <div class="meta">
-        <?php eh($k + 1) ?>: <?php eh($v->username) ?> created on : <?php eh($v->created) ?>
-    </div>
-    <div>
-        <?php echo readable_text($v->body) ?>
-    </div>
-</div>
+        <tr>
+            <td><span style="color:darkred">Post # </span><?php eh($k + 1) ?></td>
+            <td>
+                <span style="color:blue"><?php eh($v->username) ?></span> :
+                <?php echo readable_text($v->body) ?>
+            </td>
+            <td><span style="color:blue">Posted on : </span><?php eh($v->created) ?></td>
+        </tr>
 <?php endforeach ?>
+</table>
 <hr>
 <div class="pager page-header">
     <?php

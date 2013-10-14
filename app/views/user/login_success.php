@@ -7,6 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 ?>
+<?php header('refresh: 3; url=/thread/index') ?>
 <h2>Welcome <?php eh($_SESSION['username']) ?>!</h2>
 <p class="alert alert-success">
     You have successfully logged in.

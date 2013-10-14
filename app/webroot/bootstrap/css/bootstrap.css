@@ -4805,7 +4805,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .pager {
-  margin: 0px 0;
+  margin: 20px 0;
   text-align: left;
   list-style: none;
   *zoom: 1;

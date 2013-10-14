@@ -7,18 +7,21 @@
  * To change this template use File | Settings | File Templates.
  */
 ?>
-<h1>All threads</h1>
-<div class="pagination">
-<ul>
+
+<table class="table table-bordered">
+    <th style="background-color: lightblue"><h1>All threads</h1></th>
+    <tbody>
     <?php foreach ($threads as $v): ?>
-        <li>
-            <a href="<?php eh(url('thread/view', array('thread_id' => $v->id))) ?>">
-                <?php eh($v->title) ?>
-            </a>
-        </li>
+        <tr>
+            <td>
+                <a href="<?php eh(url('thread/view', array('thread_id' => $v->id))) ?>">
+                    <?php eh($v->title) ?>
+                </a>
+            </td>
+        </tr>
     <?php endforeach ?>
-</ul>
-</div>
+    </tbody>
+</table>
 <div class="pager page-header">
     <?php
         // If there is more than 1 page of results
