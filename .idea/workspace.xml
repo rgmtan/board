@@ -24,7 +24,7 @@
     <file path="/logout.php" changelist="cfb09550-58cf-4466-9332-a519c7077588" time="1381647111104" ignored="false" />
     <file path="/index2.php" changelist="cfb09550-58cf-4466-9332-a519c7077588" time="1381642753540" ignored="false" />
     <file path="/bootstrap.css" changelist="cfb09550-58cf-4466-9332-a519c7077588" time="1381666001422" ignored="false" />
-    <file path="/bootstrap.min.css" changelist="cfb09550-58cf-4466-9332-a519c7077588" time="1381666106224" ignored="false" />
+    <file path="/bootstrap.min.css" changelist="cfb09550-58cf-4466-9332-a519c7077588" time="1381793429765" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,7 @@
       <file leaf-file-name="bootstrap.min.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/webroot/bootstrap/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="77658" selection-start="77887" selection-end="77887" vertical-scroll-proportion="0.26003823">
+            <state line="8" column="77680" selection-start="77909" selection-end="77909" vertical-scroll-proportion="0.26003823">
               <folding />
             </state>
           </provider>
@@ -125,7 +125,6 @@
         <option value="$PROJECT_DIR$/app/views/layouts/default.php" />
         <option value="$PROJECT_DIR$/app/views/thread/index2.php" />
         <option value="$PROJECT_DIR$/app/views/user/logout.php" />
-        <option value="$PROJECT_DIR$/app/webroot/bootstrap/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/app/views/thread/create.php" />
         <option value="$PROJECT_DIR$/app/controllers/thread_controller.php" />
         <option value="$PROJECT_DIR$/app/views/user/login_success.php" />
@@ -133,6 +132,7 @@
         <option value="$PROJECT_DIR$/app/views/thread/view.php" />
         <option value="$PROJECT_DIR$/app/views/thread/index.php" />
         <option value="$PROJECT_DIR$/app/models/thread.php" />
+        <option value="$PROJECT_DIR$/app/webroot/bootstrap/css/bootstrap.min.css" />
       </list>
     </option>
   </component>
@@ -848,7 +848,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/webroot/bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="77658" selection-start="77887" selection-end="77887" vertical-scroll-proportion="0.26003823">
+        <state line="8" column="77680" selection-start="77909" selection-end="77909" vertical-scroll-proportion="0.26003823">
           <folding />
         </state>
       </provider>
