@@ -7,8 +7,3 @@
  * To change this template use File | Settings | File Templates.
  */
 ?>
-<h2>Welcome <?php eh($_SESSION['username']) ?>!</h2>
-<p class="alert alert-success">
-    Registration successful!
-</p>
-<a href="<?php eh(url('thread/index')) ?>">Click here to proceed.</a>
