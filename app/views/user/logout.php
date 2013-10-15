@@ -7,7 +7,6 @@
  * To change this template use File | Settings | File Templates.
  */
 ?>
-<?php header('refresh: 3; url=/user/login') ?>
 <p class="alert alert-success">
     You have logged out.
 </p>

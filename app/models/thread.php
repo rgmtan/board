@@ -67,7 +67,7 @@ class Thread extends AppModel
         $rows = $db->rows(
             'SELECT * FROM comment WHERE thread_id = ? ORDER BY created ASC
             LIMIT '.Thread::MAX_COMMENTS.' OFFSET '.$offset,
-             array($this->id)
+            array($this->id)
         );
         foreach ($rows as $row) {
             $comments[] = new Comment($row);

@@ -7,10 +7,9 @@
  * To change this template use File | Settings | File Templates.
  */
 ?>
-
 <table class="table table-bordered">
-<th style="background-color: lightblue"><h1><?php eh($thread->title) ?></h1></th>
-<?php foreach ($comments as $k => $v): ?>
+    <th style="background-color: lightblue"><h1><?php eh($thread->title) ?></h1></th>
+    <?php foreach ($comments as $k => $v): ?>
         <tr>
             <td><span style="color:darkred">Post # </span><?php eh($k + 1) ?></td>
             <td>
@@ -19,7 +18,7 @@
             </td>
             <td><span style="color:blue">Posted on : </span><?php eh($v->created) ?></td>
         </tr>
-<?php endforeach ?>
+    <?php endforeach ?>
 </table>
 <hr>
 <div class="pager page-header">
@@ -62,4 +61,5 @@
     <input type="hidden" name="page_next" value="write_end">
     <button type="submit" class="btn btn-primary">Submit</button>
     <a class="btn btn-primary" href="<?php eh(url('thread/index')) ?>">Back</a>
- </form>
+</form>
+

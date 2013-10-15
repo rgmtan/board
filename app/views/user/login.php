@@ -10,7 +10,7 @@
 <?php session_unset(); ?>
 <?php if($user->hasError()): ?>
     <div class="alert alert-block">
-    <h4 class="alert-heading">Validation Errors!</h4>
+        <h4 class="alert-heading">Validation Errors!</h4>
         <?php if(!empty($user->validation_errors['username']['length'])): ?>
             <div><em>Username must be</em> between
                 <?php eh($user->validation['username']['length'][1]) ?> and
